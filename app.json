@@ -1,0 +1,29 @@
+{
+  "id": "603b787c-512c-400a-ba84-0baab6fb7760",
+  "name": "Campos Servitec",
+  "publisher": "Kuara by MayBeCloud",
+  "version": "1.0.1.6",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "res/kuarasoft.png",
+  "dependencies": [{
+    "id": "1fd3ed25-e318-4520-8c73-58d095279752",
+    "name": "WebEP",
+    "publisher": "MayBeCloud",
+    "version": "1.0.0.5"}    
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "21.0.0.0",
+    "idRanges": [
+      {
+        "from": 50000,
+        "to": 99999
+      }
+    ],  
+  "runtime": "8.0"
+}
