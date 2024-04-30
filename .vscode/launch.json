@@ -7,7 +7,7 @@
             "type": "al",
             "tenant": "f7bb11c1-ec29-4142-ac1e-a0cfdb4f6a88",
             "environmentType": "Sandbox",
-            "environmentName": "PORTAL_WEB",
+            "environmentName": "TestSERVITEC_mayo",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": "All",

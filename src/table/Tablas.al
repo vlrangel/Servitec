@@ -884,6 +884,7 @@ Table 90108 "Factura simplificada"
         TableID: ARRAY[10] OF Integer;
         No: ARRAY[10] OF Code[20];
         OldDimSetID: Integer;
+        DefaultDimSourceID: List of [Dictionary of [Integer, Code[20]]];
     BEGIN
         SourceCodeSetup.GET;
         TableID[1] := Type1;
@@ -897,9 +898,10 @@ Table 90108 "Factura simplificada"
         "Shortcut Dimension 1 Code" := '';
         "Shortcut Dimension 2 Code" := '';
         OldDimSetID := "Dimension Set ID";
-        "Dimension Set ID" :=
-          DimMgt.GetDefaultDimID(TableID, No, SourceCodeSetup.Purchases, "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", 0, 0);
-
+        // "Dimension Set ID" :=
+        // //  DimMgt.GetDefaultDimID(TableID, No, SourceCodeSetup.Purchases, "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", 0, 0);
+        // DimMgt.GetDefaultDimID(DefaultDimSourceID, No, SourceCodeSetup.Purchases, "Shortcut Dimension 1 Code", "Shortcut Dimension 2 Code", 0, 0);
+        // //DefaultDimSource: List of [Dictionary of [Integer, Code[20]]]; SourceCode: Code[20]; var GlobalDim1Code: Code[20]; var GlobalDim2Code: Code[20]; InheritFromDimSetID: Integer; InheritFromTableNo: Integer): Integer
         IF (OldDimSetID <> "Dimension Set ID") THEN
             MODIFY;
     END;
