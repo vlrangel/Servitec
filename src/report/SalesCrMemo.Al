@@ -1323,7 +1323,8 @@ Report 50001 "Sales - Credit Memo Servitec"
 
     PROCEDURE InitLogInteraction();
     BEGIN
-        LogInteraction := SegManagement.FindInteractTmplCode(4) <> '';
+        // LogInteraction := SegManagement.FindInteractTmplCode(4) <> '';
+        LogInteraction := SegManagement.FindInteractionTemplateCode(Enum::"Interaction Log Entry Document Type"::"Sales Cr. Memo") <> '';
     END;
 
     PROCEDURE FindPostedShipmentDate(): Date;
