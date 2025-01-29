@@ -1376,11 +1376,13 @@ Report 50002 "Purchase - Order Servitec"
         END;
 
         trigger OnOpenPage()
+        var
+            pag42: Report "Purchase - Quote";
         BEGIN
             ArchiveDocument := PurchSetup."Archive Orders";
-            // LogInteraction := SegManagement.FindInteractTmplCode(13) <> '';
 
             LogInteraction := SegManagement.FindInteractionTemplateCode(Enum::"Interaction Log Entry Document Type"::"Purch. Ord.") <> '';
+
 
             LogInteractionEnable := LogInteraction;
         END;

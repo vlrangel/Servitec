@@ -552,9 +552,10 @@ Report 50000 "Sales - Invoice Servitec"
                         FIELDCAPTION("Unit of Measure"))
                         { }
 
-                        column(VATIdent_SalesInvLineCaption;
-                        FIELDCAPTION("VAT Identifier"))
-                        { }
+                        // column(VATIdent_SalesInvLineCaption;
+                        // FIELDCAPTION("VAT Identifier"))
+                        // { }
+                        column(VATIdent_SalesInvLineCaption; VATIdent_SalesInvLineCaption) { }
 
 
                         dataItem("Sales Shipment Buffer"; Integer)
@@ -1182,6 +1183,7 @@ Report 50000 "Sales - Invoice Servitec"
         TotalGivenAmount: Decimal;
         LogInteractionEnable: Boolean;// INDATASET;
         DisplayAssemblyInformation: Boolean;
+        VATIdent_SalesInvLineCaption: TextConst ENU = 'Type VAT', ESP = 'Tipo IVA';
         PhoneNoCaptionLbl: TextConst ENU = 'Phone No.', ESP = 'Nº teléfono';
         VATRegNoCaptionLbl: TextConst ENU = 'VAT Registration No.', ESP = 'CIF/NIF';
         GiroNoCaptionLbl: TextConst ENU = 'Giro No.', ESP = 'Nº giro postal';
@@ -1209,7 +1211,8 @@ Report 50000 "Sales - Invoice Servitec"
         VATIdentCaptionLbl: TextConst ENU = 'VAT Identifier', ESP = 'Identific. IVA';
         InvDiscBaseAmtCaptionLbl: TextConst ENU = 'Invoice Discount Base Amount', ESP = 'Importe base descuento factura';
         LineAmtCaption1Lbl: TextConst ENU = 'Line Amount', ESP = 'Importe línea';
-        InvPmtDiscCaptionLbl: TextConst ENU = 'Invoice and Payment Discounts', ESP = 'Descuentos facturas y pagos';
+        //InvPmtDiscCaptionLbl: TextConst ENU = 'Invoice and Payment Discounts', ESP = 'Descuentos facturas y pagos';
+        InvPmtDiscCaptionLbl: TextConst ENU = 'Discounts', ESP = 'Descuentos';
         ECAmtCaptionLbl: TextConst ENU = 'EC Amount', ESP = 'Importe RE';
         ECCaptionLbl: TextConst ENU = 'EC %', ESP = '% RE';
         TotalCaptionLbl: TextConst ENU = 'Total', ESP = 'Total';
@@ -1260,6 +1263,7 @@ Report 50000 "Sales - Invoice Servitec"
 
     PROCEDURE InitLogInteraction();
     BEGIN
+        // LogInteraction := SegManagement.FindInteractTmplCode(4) <> '';
         LogInteraction := SegManagement.FindInteractionTemplateCode(Enum::"Interaction Log Entry Document Type"::"Sales Inv.") <> '';
     END;
 

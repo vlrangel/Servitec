@@ -1068,6 +1068,7 @@
                                               <PaddingRight>5pt</PaddingRight>
                                             </Style>
                                           </Textbox>
+                                          <rd:Selected>true</rd:Selected>
                                         </CellContents>
                                       </TablixCell>
                                       <TablixCell>
@@ -3742,9 +3743,12 @@
                                             <rd:DefaultName>UnitPriceCaption</rd:DefaultName>
                                             <ZIndex>147</ZIndex>
                                             <Style>
+                                              <Border>
+                                                <Style>None</Style>
+                                              </Border>
                                               <VerticalAlign>Bottom</VerticalAlign>
-                                              <PaddingLeft>5pt</PaddingLeft>
-                                              <PaddingRight>5pt</PaddingRight>
+                                              <PaddingLeft>3pt</PaddingLeft>
+                                              <PaddingRight>1pt</PaddingRight>
                                             </Style>
                                           </Textbox>
                                         </CellContents>
@@ -3766,7 +3770,9 @@
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
-                                                <Style />
+                                                <Style>
+                                                  <TextAlign>Right</TextAlign>
+                                                </Style>
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>SalesInvoiceLineVATIdentifierCaption</rd:DefaultName>
@@ -4133,12 +4139,17 @@
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
-                                                <Style />
+                                                <Style>
+                                                  <TextAlign>Right</TextAlign>
+                                                </Style>
                                               </Paragraph>
                                             </Paragraphs>
                                             <rd:DefaultName>SalesInvoiceLineVATIdentifier</rd:DefaultName>
                                             <ZIndex>130</ZIndex>
                                             <Style>
+                                              <Border>
+                                                <Style>None</Style>
+                                              </Border>
                                               <VerticalAlign>Top</VerticalAlign>
                                               <PaddingLeft>5pt</PaddingLeft>
                                               <PaddingRight>5pt</PaddingRight>
