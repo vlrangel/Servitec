@@ -7,7 +7,7 @@
             "type": "al",
             "tenant": "f7bb11c1-ec29-4142-ac1e-a0cfdb4f6a88",
             "environmentType": "Sandbox",
-            "environmentName": "ZZ_ServitecENE25",
+            "environmentName": "ZZ_UAT_SERVITEC_ABRIL",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": "All",
