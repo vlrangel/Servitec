@@ -964,6 +964,7 @@ Report 50000 "Sales - Invoice Servitec"
                     END;
                     CurrReport.PAGENO := 1;
 
+
                     TotalSubTotal := 0;
                     TotalInvoiceDiscountAmount := 0;
                     TotalAmount := 0;
@@ -982,7 +983,8 @@ Report 50000 "Sales - Invoice Servitec"
             trigger OnAfterGetRecord()
             BEGIN
                 If "Language Code" = '' Then "Language Code" := 'ESP';
-                CurrReport.LANGUAGE := Language.GetLanguageID("Language Code");
+                //CurrReport.LANGUAGE := Language.GetLanguageID("Language Code");
+                CurrReport.LANGUAGE := LanguageMgt.GetLanguageId("Language Code");
 
                 IF RespCenter.GET("Responsibility Center") THEN BEGIN
                     FormatAddr.RespCenter(CompanyAddr, RespCenter);
@@ -1129,7 +1131,9 @@ Report 50000 "Sales - Invoice Servitec"
         DimSetEntry1: Record 480;
         DimSetEntry2: Record 480;
         RespCenter: Record 5714;
-        Language: Codeunit Language;
+
+        LanguageMgt: Codeunit Language;
+        Report: Report "Standard Sales - Invoice";
         CurrExchRate: Record 330;
         TempPostedAsmLine: Record 911 TEMPORARY;
         SalesInvCountPrinted: Codeunit 315;

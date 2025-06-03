@@ -815,60 +815,63 @@ Table 90108 "Factura simplificada"
         END;
     END;
 
-    PROCEDURE InsertGenJournalLine(AccType: Integer; AccNo: Code[20]; Amount2: Decimal; Text: Text[250];
-    Dep: Code[20]; Proj: Code[20]; EntryNo: Integer; BalAccType: Integer; BalAccNo: Code[20]; ReasonCode: Code[20]
-    ; PostingDate: Date; DocumentNo: Code[20]; DocumentExtNo: Code[20]; IdDimen: Integer);
-    VAR
-        CustLedgEntry2: Record 21;
-        Rec242: Record 242;
-        Rec312: Record 312;
-    BEGIN
-        GenJnlLineNextNo := GenJnlLineNextNo + 10000;
+    /*
+        PROCEDURE InsertGenJournalLine(AccType: Integer; AccNo: Code[20]; Amount2: Decimal; Text: Text[250];
+        Dep: Code[20]; Proj: Code[20]; EntryNo: Integer; BalAccType: Integer; BalAccNo: Code[20]; ReasonCode: Code[20]
+        ; PostingDate: Date; DocumentNo: Code[20]; DocumentExtNo: Code[20]; IdDimen: Integer);
+        VAR
+            CustLedgEntry2: Record 21;
+            Rec242: Record 242;
+            Rec312: Record 312;
+        BEGIN
+            GenJnlLineNextNo := GenJnlLineNextNo + 10000;
 
-        Rec242.GET;
+            Rec242.GET;
 
-        WITH GenJnlLine DO BEGIN
-            CLEAR(GenJnlLine);
-            INIT;
-            "Line No." := GenJnlLineNextNo;
-            "Transaction No." := TransactionNo;
-            "Journal Template Name" := TemplName;
-            "Journal Batch Name" := BatchName;
-            "Posting Date" := PostingDate;
-            "Document No." := DocumentNo;
-            "System-Created Entry" := TRUE;
-            VALIDATE("Account Type", AccType);
-            VALIDATE("Account No.", AccNo);
-            Rec312.GET;
-            IF Rec312."Ext. Doc. No. Mandatory" THEN
-                IF DocumentExtNo = '' THEN
-                    ERROR('No. factura proveedor, no puede estar en blanco');
-            "External Document No." := DocumentExtNo;
-            "VAT Posting" := 0;
-            "Gen. Posting Type" := 0;
-            "Gen. Bus. Posting Group" := '';
-            "Gen. Prod. Posting Group" := '';
-            "VAT Bus. Posting Group" := '';
-            "VAT Prod. Posting Group" := '';
-            Description := Text;
-            VALIDATE(Amount, Amount2);
-            VALIDATE("Bal. Account Type", BalAccType);
-            VALIDATE("Bal. Account No.", BalAccNo);
-            "Bal. VAT Calculation Type" := 0;
-            "Bal. Gen. Posting Type" := 0;
-            "Bal. Gen. Bus. Posting Group" := '';
-            "Bal. Gen. Prod. Posting Group" := '';
-            "Bal. VAT Bus. Posting Group" := '';
-            "Bal. VAT Prod. Posting Group" := '';
-            "Source Code" := Rec242.Purchases;
-            "Reason Code" := ReasonCode;
-            VALIDATE("Shortcut Dimension 1 Code", Dep);
-            VALIDATE("Shortcut Dimension 2 Code", Proj);
-            "Dimension Set ID" := IdDimen;
-            GenJnlPostLine.RunWithCheck(GenJnlLine);
+            WITH GenJnlLine DO BEGIN
+                CLEAR(GenJnlLine);
+                INIT;
+                "Line No." := GenJnlLineNextNo;
+                "Transaction No." := TransactionNo;
+                "Journal Template Name" := TemplName;
+                "Journal Batch Name" := BatchName;
+                "Posting Date" := PostingDate;
+                "Document No." := DocumentNo;
+                "System-Created Entry" := TRUE;
+                VALIDATE("Account Type", AccType);
+                VALIDATE("Account No.", AccNo);
+                Rec312.GET;
+                IF Rec312."Ext. Doc. No. Mandatory" THEN
+                    IF DocumentExtNo = '' THEN
+                        ERROR('No. factura proveedor, no puede estar en blanco');
+                "External Document No." := DocumentExtNo;
+                "VAT Posting" := 0;
+               // "Gen. Posting Type" := 0;
+                "Gen. Posting Type" := "Gen. Posting Type"::" ";
+                "Gen. Bus. Posting Group" := '';
+                "Gen. Prod. Posting Group" := '';
+                "VAT Bus. Posting Group" := '';
+                "VAT Prod. Posting Group" := '';
+                Description := Text;
+                VALIDATE(Amount, Amount2);
+                VALIDATE("Bal. Account Type", BalAccType);
+                VALIDATE("Bal. Account No.", BalAccNo);
+                "Bal. VAT Calculation Type" := 0;
+                 //"Bal. VAT Calculation Type" := "Bal. VAT Calculation Type"::"Full VAT"
+                "Bal. Gen. Posting Type" := 0;
+                "Bal. Gen. Bus. Posting Group" := '';
+                "Bal. Gen. Prod. Posting Group" := '';
+                "Bal. VAT Bus. Posting Group" := '';
+                "Bal. VAT Prod. Posting Group" := '';
+                "Source Code" := Rec242.Purchases;
+                "Reason Code" := ReasonCode;
+                VALIDATE("Shortcut Dimension 1 Code", Dep);
+                VALIDATE("Shortcut Dimension 2 Code", Proj);
+                "Dimension Set ID" := IdDimen;
+                GenJnlPostLine.RunWithCheck(GenJnlLine);
+            END;
         END;
-    END;
-
+    */
     PROCEDURE Navigate();
     VAR
         NavigateForm: Page 344;

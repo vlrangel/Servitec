@@ -1232,7 +1232,8 @@ Report 50002 "Purchase - Order Servitec"
             trigger OnAfterGetRecord()
             BEGIN
                 If "Language Code" = '' Then "Language Code" := 'ESP';
-                CurrReport.LANGUAGE := Language.GetLanguageID("Language Code");
+                //CurrReport.LANGUAGE := Language.GetLanguageID("Language Code");
+                CurrReport.LANGUAGE := LanguageMgt.GetLanguageID("Language Code");
 
                 CompanyInfo.GET;
 
@@ -1423,7 +1424,8 @@ Report 50002 "Purchase - Order Servitec"
         TempPrepmtDimSetEntry: Record 480 TEMPORARY;
         PrepmtInvBuf: Record 461 TEMPORARY;
         RespCenter: Record 5714;
-        Language: Codeunit Language;
+        //Language: Codeunit Language;
+        LanguageMgt: Codeunit Language;
         CurrExchRate: Record 330;
         PurchSetup: Record 312;
         PurchCountPrinted: Codeunit 317;
