@@ -1051,7 +1051,7 @@ Report 50001 "Sales - Credit Memo Servitec"
             BEGIN
 
                 If "Language Code" = '' Then "Language Code" := 'ESP';
-                CurrReport.LANGUAGE := Language.GetLanguageID("Language Code");
+                CurrReport.LANGUAGE := LanguageMgt.GetLanguageID("Language Code");
 
                 IF RespCenter.GET("Responsibility Center") THEN BEGIN
                     FormatAddr.RespCenter(CompanyAddr, RespCenter);
@@ -1222,7 +1222,8 @@ Report 50001 "Sales - Credit Memo Servitec"
         DimSetEntry1: Record 480;
         DimSetEntry2: Record 480;
         RespCenter: Record 5714;
-        Language: Codeunit Language;
+        //Language: Codeunit Language;
+        LanguageMgt: Codeunit Language;
         CurrExchRate: Record 330;
         TempPostedAsmLine: Record 911 TEMPORARY;
         SalesInvCountPrinted: Codeunit 315;
