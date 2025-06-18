@@ -9071,7 +9071,7 @@ Cstr(Fields!ExternalDocumentNo.Value)</Value>
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>3.95625cm</Width>
+                                    <Width>16.35628cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -9133,7 +9133,7 @@ Cstr(Fields!ExternalDocumentNo.Value)</Value>
                               <Top>17.78087cm</Top>
                               <Left>0.17873cm</Left>
                               <Height>0.51533cm</Height>
-                              <Width>3.95625cm</Width>
+                              <Width>16.35628cm</Width>
                               <ZIndex>10</ZIndex>
                               <Style>
                                 <Border>
@@ -9145,7 +9145,6 @@ Cstr(Fields!ExternalDocumentNo.Value)</Value>
                           <KeepTogether>true</KeepTogether>
                           <Style />
                         </Rectangle>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                   </TablixCells>
