@@ -556,7 +556,8 @@ Report 50000 "Sales - Invoice Servitec"
                         // FIELDCAPTION("VAT Identifier"))
                         // { }
                         column(VATIdent_SalesInvLineCaption; VATIdent_SalesInvLineCaption) { }
-
+                        column(VATClauseTmpCode; VATClauseTmp.Code) { }
+                        column(VatClauseDescripcion; VATClauseTmp.Description) { }
 
                         dataItem("Sales Shipment Buffer"; Integer)
                         {
@@ -724,6 +725,14 @@ Report 50000 "Sales - Invoice Servitec"
                                 TotalAmountInclVAT += "Amount Including VAT";
                                 TotalGivenAmount -= "Pmt. Discount Amount";
                                 TotalPaymentDiscountOnVAT += -("Line Amount" - "Inv. Discount Amount" - "Pmt. Discount Amount" - "Amount Including VAT");
+
+
+                                if VATClauseFind.get(VATPostingSetup."VAT Clause Code") then begin
+                                    VATClauseTmp.Init();
+                                    VATClauseTmp.Code := VATClauseFind.Code;
+                                    VATClauseTmp.Description := VATClauseFind.Description;
+                                    if NOT VATClauseTmp.Insert() then;
+                                end;
                             END;
                         END;
                     }
@@ -1127,7 +1136,9 @@ Report 50000 "Sales - Invoice Servitec"
         CompanyInfo3: Record 79;
         SalesSetup: Record 311;
         Cust: Record 18;
-        VATAmountLine: Record 290 TEMPORARY;
+        VATAmountLine: Record "VAT Amount Line" TEMPORARY;
+        VATClauseFind: Record "VAT Clause";
+        VATClauseTmp: Record "VAT Clause" temporary;
         DimSetEntry1: Record 480;
         DimSetEntry2: Record 480;
         RespCenter: Record 5714;
