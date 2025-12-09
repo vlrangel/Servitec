@@ -10,6 +10,14 @@ pageextension 50505 VendorList extends "Vendor List" //27
                 ApplicationArea = All;
                 ToolTip = 'Specifies the vendor''s VAT registration number.';
             }
+
+            field("Purchases (LCY)"; Rec."Purchases (LCY)")
+            {
+                ApplicationArea = All;
+                //ToolTip = 'Specifies the vendor''s VAT registration number.';
+            }
+
+
         }
     }
 
