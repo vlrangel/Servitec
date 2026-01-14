@@ -1376,9 +1376,12 @@ Report 50002 "Purchase - Order Servitec"
         END;
 
         trigger OnOpenPage()
+        var
+            DocumentType: Enum "Interaction Log Entry Document Type";
         BEGIN
             ArchiveDocument := PurchSetup."Archive Orders";
-            LogInteraction := SegManagement.FindInteractTmplCode(13) <> '';
+            DocumentType := DocumentType::"Purch. Ord.";
+            LogInteraction := SegManagement.FindInteractionTemplateCode(DocumentType) <> '';
 
             LogInteractionEnable := LogInteraction;
         END;

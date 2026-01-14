@@ -1322,8 +1322,11 @@ Report 50001 "Sales - Credit Memo Servitec"
         NoCtaAccLbl: TextConst ENU = 'Account  Number', ESP = 'No. Cuenta Banco';
 
     PROCEDURE InitLogInteraction();
+    var
+        DocumentType: Enum "Interaction Log Entry Document Type";
     BEGIN
-        LogInteraction := SegManagement.FindInteractTmplCode(4) <> '';
+        DocumentType := DocumentType::"Sales Cr. Memo";
+        LogInteraction := SegManagement.FindInteractionTemplateCode(DocumentType) <> '';
     END;
 
     PROCEDURE FindPostedShipmentDate(): Date;

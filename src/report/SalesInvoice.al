@@ -980,7 +980,7 @@ Report 50000 "Sales - Invoice Servitec"
             }
             trigger OnAfterGetRecord()
             BEGIN
-               If "Language Code" = '' Then "Language Code" := 'ESP';
+                If "Language Code" = '' Then "Language Code" := 'ESP';
                 CurrReport.LANGUAGE := Language.GetLanguageID("Language Code");
 
                 IF RespCenter.GET("Responsibility Center") THEN BEGIN
@@ -1259,8 +1259,11 @@ Report 50000 "Sales - Invoice Servitec"
     END;
 
     PROCEDURE InitLogInteraction();
+    var
+        DocumentType: Enum "Interaction Log Entry Document Type";
     BEGIN
-        LogInteraction := SegManagement.FindInteractTmplCode(4) <> '';
+        DocumentType := DocumentType::"Sales Inv.";
+        LogInteraction := SegManagement.FindInteractionTemplateCode(DocumentType) <> '';
     END;
 
     PROCEDURE FindPostedShipmentDate(): Date;

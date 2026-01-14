@@ -323,11 +323,13 @@ Table 90108 "Factura simplificada"
         {
             Caption = 'Nº documento';
             trigger OnValidate()
+            VAR
+                NoSeries: Codeunit "No. Series";
             BEGIN
                 IF "Document No." <> xRec."Document No." THEN BEGIN
                     PurchSetup.GET;
                     PurchSetup.TESTFIELD("Simplified Invoice Nos.");
-                    NoSeriesMgt.TestManual(PurchSetup."Simplified Invoice Nos.");
+                    NoSeries.TestManual(PurchSetup."Simplified Invoice Nos.");
                     "No. Series" := '';
                 END;
             END;
@@ -716,12 +718,17 @@ Table 90108 "Factura simplificada"
         Key(PK2; Status, "Document No.") { }
     }
     trigger OnInsert()
+    VAR
+        NoSeries: Codeunit "No. Series";
     Begin
         PurchSetup.GET;
 
         IF "Document No." = '' THEN BEGIN
             PurchSetup.TESTFIELD("Simplified Invoice Nos.");
-            NoSeriesMgt.InitSeries(PurchSetup."Simplified Invoice Nos.", xRec."No. Series", "Posting Date", "Document No.", "No. Series");
+            "No. Series" := PurchSetup."Simplified Invoice Nos.";
+            IF NoSeries.AreRelated(PurchSetup."Simplified Invoice Nos.", xRec."No. Series") THEN
+                "No. Series" := xRec."No. Series";
+            "Document No." := NoSeries.GetNextNo("No. Series", "Posting Date");
         END;
 
         // SIIME
@@ -770,7 +777,6 @@ Table 90108 "Factura simplificada"
         CompanyInfo: Record 79;
         ClavesSIIME: Record 90102;
         PurchSetup: Record 312;
-        NoSeriesMgt: Codeunit 396;
         GenJnlLineNextNo: Integer;
         GenJnlLine: Record 81;
         TransactionNo: Integer;
@@ -789,12 +795,16 @@ Table 90108 "Factura simplificada"
     END;
 
     PROCEDURE AssistEdit(OldPurchHeader: Record 90108): Boolean;
+    VAR
+        PurchHeader2: Record 90108;
+        NoSeries: Codeunit "No. Series";
     BEGIN
         PurchSetup.GET;
         PurchSetup.TESTFIELD("Simplified Invoice Nos.");
-        IF NoSeriesMgt.SelectSeries(PurchSetup."Simplified Invoice Nos.", OldPurchHeader."No. Series", "No. Series") THEN BEGIN
-            PurchSetup.GET;
-            NoSeriesMgt.SetSeries("Document No.");
+        IF NoSeries.LookupRelatedNoSeries(PurchSetup."Simplified Invoice Nos.", OldPurchHeader."No. Series", "No. Series") THEN BEGIN
+            "Document No." := NoSeries.GetNextNo("No. Series");
+            IF PurchHeader2.GET("Document No.") THEN
+                ERROR('El documento %1 ya existe.', "Document No.");
             EXIT(TRUE);
         END;
     END;
