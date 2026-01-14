@@ -2,7 +2,7 @@
   "id": "603b787c-512c-400a-ba84-0baab6fb7760",
   "name": "Campos Servitec",
   "publisher": "Kuara by MayBeCloud",
-  "version": "1.0.2.14",
+  "version": "1.0.2.15",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -25,5 +25,5 @@
         "to": 99999
       }
     ],  
-  "runtime": "8.0"
+  "runtime": "15.0"
 }
