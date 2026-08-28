@@ -46,11 +46,11 @@ Report 50000 "Sales - Invoice Servitec"
             { }
 
             column(NumeroCuentaenFactura;
-            PaymentMethod."Num de cuenta banco en factura")
+            PaymentMethod."Num. cuenta banco en factura")
             { }
 
             column(SWIFT;
-            PaymentMethod.SWIFT)
+            PaymentMethod."SWIFT.")
             { }
 
             column(DocDateCaption;

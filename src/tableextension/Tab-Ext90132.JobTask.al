@@ -5,7 +5,7 @@ tableextension 90132 JobTask extends "Job Task"
 {
     fields
     {
-        // field(90000; "Visible Web"; Boolean)
+        // field(91500; "Visible Web"; Boolean)
         // {
         //     Caption = 'Visible Web';
         //     DataClassification = ToBeClassified;

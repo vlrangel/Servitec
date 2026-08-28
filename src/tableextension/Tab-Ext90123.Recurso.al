@@ -5,7 +5,7 @@ tableextension 90123 Recurso extends Resource
 {
     fields
     {
-        // field(90000; "WorkReport Type"; Option)
+        // field(91500; "WorkReport Type"; Option)
         // {
         //     OptionMembers = ,Technician;
         //     Caption = 'WorkReport Type';

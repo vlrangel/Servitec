@@ -5,7 +5,7 @@ tableextension 90111 ItemJlLine extends "Standard Item Journal Line"
 {
     fields
     {
-        field(90000; EFF; Code[20])
+        field(91500; EFF; Code[20])
         {
         }
     }

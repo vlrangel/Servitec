@@ -5,9 +5,9 @@ tableextension 90104 Producto extends Item
 {
     fields
     {
-        field(90000; "PN"; Text[50]) { }
-        field(90001; "SN_BATCH"; Text[50]) { }
-        field(90002; "EFF"; Text[20]) { }
-        field(90003; "OPERADOR"; Code[50]) { }
+        field(91500; "PN"; Text[50]) { }
+        field(91501; "SN_BATCH"; Text[50]) { }
+        field(91502; "EFF"; Text[20]) { }
+        field(91503; "OPERADOR"; Code[50]) { }
     }
 }

@@ -5,7 +5,7 @@ tableextension 90105 MovProducto extends "Item Ledger Entry"
 {
     fields
     {
-        field(90000; EFF; Code[10])
+        field(91500; EFF; Code[10])
         {
             Caption = 'EFF';
 

@@ -5,7 +5,7 @@ tableextension 90128 ResourceSetup extends "Resources Setup"
 {
     fields
     {
-        field(90000; "Base Dimension Portal"; Code[20])
+        field(91500; "Base Dimension Portal"; Code[20])
         {
             DataClassification = ToBeClassified;
         }

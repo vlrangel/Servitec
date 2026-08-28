@@ -3,6 +3,7 @@ permissionset 50000 GeneratedPermission1
     Assignable = true;
     Permissions = tabledata BORRAR = RIMD,
         tabledata "Claves SIIME" = RIMD,
+        tabledata "Cust. Ledger Entry" = RM,
         tabledata "Factura simplificada" = RIMD,
         tabledata IMPORTACION_PRODUCTOS = RIMD,
         tabledata "Log SIIME" = RIMD,
@@ -12,6 +13,7 @@ permissionset 50000 GeneratedPermission1
         tabledata "Movimientos IRPF" = RIMD,
         tabledata "PRODUCTOS IMPORTACION" = RIMD,
         tabledata Prueba = RIMD,
+        tabledata "Reminder/Fin. Charge Entry" = RIMD,
         tabledata "TMP Movs liquidados" = RIMD,
         tabledata "TMP Movs para registrar" = RIMD,
         tabledata "TMP Pendientes separados" = RIMD,
@@ -36,6 +38,7 @@ permissionset 50000 GeneratedPermission1
         report "Purchase - Order Servitec" = X,
         report "Sales - Credit Memo Servitec" = X,
         report "Sales - Invoice Servitec" = X,
-        page "Importar Blob 1" = X,
+       page "Importar Blob 1" = X,
+        page "Reminder/Fin. Charge Entries" = X,
         page Prueba = X;
 }

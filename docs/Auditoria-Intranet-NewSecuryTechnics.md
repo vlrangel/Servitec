@@ -1,0 +1,637 @@
+# Auditoria preliminar intranet NewSecuryTechnics
+
+URL base: `https://bc-nav.ns-technic.com/`
+
+## Resumen
+
+- Paginas revisadas: 80.
+- Paginas con respuesta util: 80.
+- Auditoria de solo lectura: no se han enviado formularios funcionales.
+
+## Pantallas detectadas
+
+- `https://bc-nav.ns-technic.com/antihurtos.php` - Extranet NewSecuryTechnics :: Listado de inventarios antihurtos - HTTP 200
+- `https://bc-nav.ns-technic.com/assets/chosen/chosen.jquery.min.js` - https://bc-nav.ns-technic.com/assets/chosen/chosen.jquery.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/assets/signaturePad/assets/bezier.js` - https://bc-nav.ns-technic.com/assets/signaturePad/assets/bezier.js - HTTP 200
+- `https://bc-nav.ns-technic.com/assets/signaturePad/assets/json2.min.js` - https://bc-nav.ns-technic.com/assets/signaturePad/assets/json2.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/assets/signaturePad/assets/numeric-1.2.6.min.js` - https://bc-nav.ns-technic.com/assets/signaturePad/assets/numeric-1.2.6.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/assets/signaturePad/jquery.signaturepad.js` - https://bc-nav.ns-technic.com/assets/signaturePad/jquery.signaturepad.js - HTTP 200
+- `https://bc-nav.ns-technic.com/assets/tablesorter/jquery.tablesorter.js` - https://bc-nav.ns-technic.com/assets/tablesorter/jquery.tablesorter.js - HTTP 200
+- `https://bc-nav.ns-technic.com/cabecera.php` - https://bc-nav.ns-technic.com/cabecera.php - HTTP 200
+- `https://bc-nav.ns-technic.com/cambiarClave.php` - Extranet NewSecuryTechnics :: Cambiar clave de acceso - HTTP 200
+- `https://bc-nav.ns-technic.com/checklist.php` - Checklist Desactivadores - NST 2026 - HTTP 200
+- `https://bc-nav.ns-technic.com/costes.php` - Extranet NewSecuryTechnics :: Resumen de Costes - HTTP 200
+- `https://bc-nav.ns-technic.com/cuentasGastos.php` - Extranet NewSecuryTechnics :: Información de cuenta y gastos - HTTP 200
+- `https://bc-nav.ns-technic.com/historialCentro.php` - Extranet NewSecuryTechnics :: Historial de centro - HTTP 200
+- `https://bc-nav.ns-technic.com/incidencias.php` - Extranet NewSecuryTechnics :: Gestión de incidencias - HTTP 200
+- `https://bc-nav.ns-technic.com/incidencias.php?listar=S&filtroTecnico=` - Extranet NewSecuryTechnics :: Gestión de incidencias - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/index.php` - Extranet NewSecuryTechnics :: Autenticación en el Sistema - HTTP 200
+- `https://bc-nav.ns-technic.com/inventario.php` - Extranet NewSecuryTechnics :: Inventario - HTTP 200
+- `https://bc-nav.ns-technic.com/inventarioCentro.php?filtroCentro=` - Extranet NewSecuryTechnics :: Inventario de centro - HTTP 200
+- `https://bc-nav.ns-technic.com/js/application.js` - https://bc-nav.ns-technic.com/js/application.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/autoresize.jquery.min.js` - https://bc-nav.ns-technic.com/js/autoresize.jquery.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/auxiliares.js?47` - https://bc-nav.ns-technic.com/js/auxiliares.js?47 - HTTP 200
+- `https://bc-nav.ns-technic.com/js/auxiliaresAutenticadoNST.js?47` - https://bc-nav.ns-technic.com/js/auxiliaresAutenticadoNST.js?47 - HTTP 200
+- `https://bc-nav.ns-technic.com/js/bootstrap.min.js` - https://bc-nav.ns-technic.com/js/bootstrap.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/fullcalendar.min.js` - https://bc-nav.ns-technic.com/js/fullcalendar.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/glisse/glisse.js` - https://bc-nav.ns-technic.com/js/glisse/glisse.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/google-code-prettify/prettify.js` - https://bc-nav.ns-technic.com/js/google-code-prettify/prettify.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/graphtable.js` - https://bc-nav.ns-technic.com/js/graphtable.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery-ui.min.js` - https://bc-nav.ns-technic.com/js/jquery-ui.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery.autotab.js` - https://bc-nav.ns-technic.com/js/jquery.autotab.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery.dataTables.min.js` - https://bc-nav.ns-technic.com/js/jquery.dataTables.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery.fancybox.js?v=2.1.4` - https://bc-nav.ns-technic.com/js/jquery.fancybox.js?v=2.1.4 - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery.jgrowl_minimized.js` - https://bc-nav.ns-technic.com/js/jquery.jgrowl_minimized.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery.print.js` - https://bc-nav.ns-technic.com/js/jquery.print.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery.sparkline.min.js` - https://bc-nav.ns-technic.com/js/jquery.sparkline.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery.stepy.min.js` - https://bc-nav.ns-technic.com/js/jquery.stepy.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery.table2excel.js` - https://bc-nav.ns-technic.com/js/jquery.table2excel.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/jquery.validate.min.js` - https://bc-nav.ns-technic.com/js/jquery.validate.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/justgage.js` - https://bc-nav.ns-technic.com/js/justgage.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/moderniz.js` - https://bc-nav.ns-technic.com/js/moderniz.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/raphael-2.1.4.min.js` - https://bc-nav.ns-technic.com/js/raphael-2.1.4.min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/scw.js?47` - https://bc-nav.ns-technic.com/js/scw.js?47 - HTTP 200
+- `https://bc-nav.ns-technic.com/js/slidernav-min.js` - https://bc-nav.ns-technic.com/js/slidernav-min.js - HTTP 200
+- `https://bc-nav.ns-technic.com/js/styleswitcher.js` - https://bc-nav.ns-technic.com/js/styleswitcher.js - HTTP 200
+- `https://bc-nav.ns-technic.com/mantenimientos.php` - Extranet NewSecuryTechnics :: Gestión de mantenimientos - HTTP 200
+- `https://bc-nav.ns-technic.com/mantenimientos.php?listar=S&filtroTecnico=` - Extranet NewSecuryTechnics :: Gestión de mantenimientos - HTTP 200
+- `https://bc-nav.ns-technic.com/mensaje.json` - https://bc-nav.ns-technic.com/mensaje.json - HTTP 200
+- `https://bc-nav.ns-technic.com/notificaciones.php` - https://bc-nav.ns-technic.com/notificaciones.php - HTTP 200
+- `https://bc-nav.ns-technic.com/obras.php` - Extranet NewSecuryTechnics :: Gestión de Órdenes de Proyectos - HTTP 200
+- `https://bc-nav.ns-technic.com/obras.php?listar=S&filtroTecnico=` - Extranet NewSecuryTechnics :: Gestión de Órdenes de Proyectos - HTTP 200
+- `https://bc-nav.ns-technic.com/ocupacion.php` - Extranet NewSecuryTechnics :: Horas de ocupación de técnicos - HTTP 200
+- `https://bc-nav.ns-technic.com/ordenesCliente.php` - Extranet NewSecuryTechnics :: Ordenes pendientes de facturar - HTTP 200
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=` - Extranet NewSecuryTechnics :: Añadir Parte de Trabajo - HTTP 200
+- `https://bc-nav.ns-technic.com/pendientes.php` - Extranet NewSecuryTechnics :: Asignación de ordenes pendientes - HTTP 200
+- `https://bc-nav.ns-technic.com/planosCentros.php` - Extranet NewSecuryTechnics :: Gestión de planos de Centros - HTTP 200
+- `https://bc-nav.ns-technic.com/prcAntihurtos.php` - Extranet NewSecuryTechnics :: Inventario antenas antihurto - HTTP 200
+- `https://bc-nav.ns-technic.com/prcPedidoTransferencia.php` - Extranet NewSecuryTechnics :: Inventario - HTTP 200
+- `https://bc-nav.ns-technic.com/presupuestos.php` - Extranet NewSecuryTechnics :: Presupuestos - HTTP 200
+- `https://bc-nav.ns-technic.com/principal.php` - Extranet NewSecuryTechnics :: Intranet de NST - HTTP 200
+- `https://bc-nav.ns-technic.com/principal.php` - Extranet NewSecuryTechnics :: Intranet de NST - HTTP 200
+- `https://bc-nav.ns-technic.com/principal.php` - Extranet NewSecuryTechnics :: Intranet de NST - HTTP 200
+- `https://bc-nav.ns-technic.com/proyectos.php` - Extranet NewSecuryTechnics :: Gestión de Proyectos - HTTP 200
+- `https://bc-nav.ns-technic.com/ruta.php` - Extranet NewSecuryTechnics :: Ruta de trabajo - HTTP 200
+
+## Formularios detectados
+
+- `https://bc-nav.ns-technic.com/principal.php` -> POST `https://bc-nav.ns-technic.com/principal.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/principal.php` -> POST `https://bc-nav.ns-technic.com/principal.php`: insert_entrada (submit)
+- `https://bc-nav.ns-technic.com/principal.php` -> POST `https://bc-nav.ns-technic.com/principal.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/principal.php` -> POST `https://bc-nav.ns-technic.com/principal.php`: insert_entrada (submit)
+- `https://bc-nav.ns-technic.com/principal.php` -> POST `https://bc-nav.ns-technic.com/principal.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/principal.php` -> POST `https://bc-nav.ns-technic.com/principal.php`: insert_entrada (submit)
+- `https://bc-nav.ns-technic.com/incidencias.php` -> POST `https://bc-nav.ns-technic.com/incidencias.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/incidencias.php` -> GET `https://bc-nav.ns-technic.com/incidencias.php`: filtroReferencia (text), fechaInicio (text), fechaFin (text), filtroTrabajo (select), filtroCodTipoEstadoIncidencia (select), listar (hidden), filtroCentro (select), filtroCliente (select), filtroDelegacion (select), filtroProvincia (select), filtroTecnico (select), input (submit)
+- `https://bc-nav.ns-technic.com/incidencias.php` -> POST `https://bc-nav.ns-technic.com/incidencias.php`: norden (text), documento (file), fecha (text), guardar (submit), comentarioVerificacion (textarea), codResolucion1 (select), codResolucion2 (select), NumeroOrdenVerificar (hidden), guardar (button), ComentarioDescartar (textarea), NumeroOrdenDescartar (hidden), botonDescartar (button), desAsignarNorden (hidden), botonDesAsignar (button), comentarioRealizado (textarea), NumeroOrdenTerminar (hidden), guardar (button), NumeroSiguienteAlbaran (text), NumeroOrdenRegistrar (hidden), botonRegistrarOrden (button)
+- `https://bc-nav.ns-technic.com/incidencias.php?listar=S&filtroTecnico=` -> POST `https://bc-nav.ns-technic.com/incidencias.php?listar=S&filtroTecnico=`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/incidencias.php?listar=S&filtroTecnico=` -> GET `https://bc-nav.ns-technic.com/incidencias.php?listar=S&filtroTecnico=`: filtroReferencia (text), fechaInicio (text), fechaFin (text), filtroTrabajo (select), filtroCodTipoEstadoIncidencia (select), listar (hidden), filtroCentro (select), filtroCliente (select), filtroDelegacion (select), filtroProvincia (select), filtroTecnico (select), input (submit)
+- `https://bc-nav.ns-technic.com/incidencias.php?listar=S&filtroTecnico=` -> POST `https://bc-nav.ns-technic.com/incidencias.php?listar=S&filtroTecnico=`: norden (text), documento (file), fecha (text), guardar (submit), comentarioVerificacion (textarea), codResolucion1 (select), codResolucion2 (select), NumeroOrdenVerificar (hidden), guardar (button), ComentarioDescartar (textarea), NumeroOrdenDescartar (hidden), botonDescartar (button), desAsignarNorden (hidden), botonDesAsignar (button), comentarioRealizado (textarea), NumeroOrdenTerminar (hidden), guardar (button), NumeroSiguienteAlbaran (text), NumeroOrdenRegistrar (hidden), botonRegistrarOrden (button)
+- `https://bc-nav.ns-technic.com/mantenimientos.php?listar=S&filtroTecnico=` -> POST `https://bc-nav.ns-technic.com/mantenimientos.php?listar=S&filtroTecnico=`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/mantenimientos.php?listar=S&filtroTecnico=` -> GET `https://bc-nav.ns-technic.com/mantenimientos.php?listar=S&filtroTecnico=`: filtroReferencia (text), fechaInicio (text), fechaFin (text), filtroTrabajo (select), filtroCodTipoEstadoIncidencia (select), listar (hidden), filtroCentro (select), filtroCliente (select), filtroDelegacion (select), filtroProvincia (select), filtroTecnico (select), input (submit)
+- `https://bc-nav.ns-technic.com/mantenimientos.php?listar=S&filtroTecnico=` -> POST `https://bc-nav.ns-technic.com/mantenimientos.php?listar=S&filtroTecnico=`: norden (text), documento (file), fecha (text), guardar (submit), comentarioVerificacion (textarea), codResolucion1 (select), codResolucion2 (select), NumeroOrdenVerificar (hidden), guardar (button), ComentarioDescartar (textarea), NumeroOrdenDescartar (hidden), botonDescartar (button), desAsignarNorden (hidden), botonDesAsignar (button), comentarioRealizado (textarea), NumeroOrdenTerminar (hidden), guardar (button), NumeroSiguienteAlbaran (text), NumeroOrdenRegistrar (hidden), botonRegistrarOrden (button)
+- `https://bc-nav.ns-technic.com/obras.php` -> POST `https://bc-nav.ns-technic.com/obras.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/obras.php` -> GET `https://bc-nav.ns-technic.com/obras.php`: filtroReferencia (text), filtroProyecto (text), fechaInicio (text), fechaFin (text), filtroTrabajo (select), filtroCodTipoEstadoIncidencia (select), listar (hidden), filtroCentro (select), filtroCliente (select), filtroDelegacion (select), filtroProvincia (select), filtroTecnico (select), input (submit)
+- `https://bc-nav.ns-technic.com/obras.php` -> POST `https://bc-nav.ns-technic.com/obras.php`: norden (text), documento (file), fecha (text), guardar (submit), comentarioVerificacion (textarea), codResolucion1 (select), codResolucion2 (select), NumeroOrdenVerificar (hidden), guardar (button), ComentarioDescartar (textarea), NumeroOrdenDescartar (hidden), botonDescartar (button), desAsignarNorden (hidden), botonDesAsignar (button), comentarioRealizado (textarea), NumeroOrdenTerminar (hidden), guardar (button), NumeroSiguienteAlbaran (text), NumeroOrdenRegistrar (hidden), botonRegistrarOrden (button)
+- `https://bc-nav.ns-technic.com/obras.php?listar=S&filtroTecnico=` -> POST `https://bc-nav.ns-technic.com/obras.php?listar=S&filtroTecnico=`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/obras.php?listar=S&filtroTecnico=` -> GET `https://bc-nav.ns-technic.com/obras.php?listar=S&filtroTecnico=`: filtroReferencia (text), filtroProyecto (text), fechaInicio (text), fechaFin (text), filtroTrabajo (select), filtroCodTipoEstadoIncidencia (select), listar (hidden), filtroCentro (select), filtroCliente (select), filtroDelegacion (select), filtroProvincia (select), filtroTecnico (select), input (submit)
+- `https://bc-nav.ns-technic.com/obras.php?listar=S&filtroTecnico=` -> POST `https://bc-nav.ns-technic.com/obras.php?listar=S&filtroTecnico=`: norden (text), documento (file), fecha (text), guardar (submit), comentarioVerificacion (textarea), codResolucion1 (select), codResolucion2 (select), NumeroOrdenVerificar (hidden), guardar (button), ComentarioDescartar (textarea), NumeroOrdenDescartar (hidden), botonDescartar (button), desAsignarNorden (hidden), botonDesAsignar (button), comentarioRealizado (textarea), NumeroOrdenTerminar (hidden), guardar (button), NumeroSiguienteAlbaran (text), NumeroOrdenRegistrar (hidden), botonRegistrarOrden (button)
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=` -> POST `https://bc-nav.ns-technic.com/partetrabajo.php?norden=`: idiomaSeleccionado (submit), idiomaSeleccionado (submit), buscador-inventario (text), buscador-inventario (text), buscador-inventario-recogidos (text), nProductoServicio (hidden), nProductoBateria (select), zonabateria (text), seriebateria (text)
+- `https://bc-nav.ns-technic.com/inventarioCentro.php?filtroCentro=` -> POST `https://bc-nav.ns-technic.com/inventarioCentro.php?filtroCentro=`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/inventarioCentro.php?filtroCentro=` -> GET `https://bc-nav.ns-technic.com/inventarioCentro.php?filtroCentro=`: filtroCentro (select), listar (hidden), serie (text), nAlmacen (hidden), nCentro (hidden)
+- `https://bc-nav.ns-technic.com/inventarioCentro.php?filtroCentro=` -> POST `https://bc-nav.ns-technic.com/inventarioCentro.php?filtroCentro=`: id (hidden), nProductoServicio (hidden), ncentro (hidden), numorden (hidden), codUsuario (hidden), nalmacen (hidden)
+- `https://bc-nav.ns-technic.com/prcPedidoTransferencia.php` -> POST `https://bc-nav.ns-technic.com/prcPedidoTransferencia.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/prcPedidoTransferencia.php` -> POST `https://bc-nav.ns-technic.com/prcPedidoTransferencia.php`: origen (select), origenHidden (hidden), destino (select), destinoHidden (hidden), id (hidden), guardar (submit), input (button), buscador-inventario (text)
+- `https://bc-nav.ns-technic.com/antihurtos.php` -> POST `https://bc-nav.ns-technic.com/antihurtos.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/antihurtos.php` -> GET `https://bc-nav.ns-technic.com/antihurtos.php`: filtroCentro (select)
+- `https://bc-nav.ns-technic.com/cambiarClave.php` -> POST `https://bc-nav.ns-technic.com/cambiarClave.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/cambiarClave.php` -> POST `https://bc-nav.ns-technic.com/cambiarClave.php`: claveActual (password), clave1 (password), clave2 (password), guardar (submit), input (button)
+- `https://bc-nav.ns-technic.com/checklist.php` -> GET `https://bc-nav.ns-technic.com/checklist.php`: ELEC_001 (radio), ELEC_001 (radio), obs_ELEC_001 (textarea), ELEC_002 (radio), ELEC_002 (radio), obs_ELEC_002 (textarea), ELEC_003 (radio), ELEC_003 (radio), obs_ELEC_003 (textarea), ANTE_001 (radio), ANTE_001 (radio), obs_ANTE_001 (textarea), ANTE_002 (radio), ANTE_002 (radio), obs_ANTE_002 (textarea), ANTE_003 (radio), ANTE_003 (radio), obs_ANTE_003 (textarea), ALIM_001 (radio), ALIM_001 (radio), obs_ALIM_001 (textarea), TOMA_001 (radio), TOMA_001 (radio), obs_TOMA_001 (textarea), VERIF_001 (radio), VERIF_001 (radio), VERIF_001 (radio), obs_VERIF_001 (textarea), observaciones_generales (textarea)
+- `https://bc-nav.ns-technic.com/costes.php` -> POST `https://bc-nav.ns-technic.com/costes.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/costes.php` -> GET `https://bc-nav.ns-technic.com/costes.php`: filtroGerente (select), fechaInicio (text), fechaFin (text), listar (hidden), input (submit)
+- `https://bc-nav.ns-technic.com/cuentasGastos.php` -> POST `https://bc-nav.ns-technic.com/cuentasGastos.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/cuentasGastos.php` -> POST `https://bc-nav.ns-technic.com/cuentasGastos.php`: empresaNavision (select), input (submit)
+- `https://bc-nav.ns-technic.com/historialCentro.php` -> POST `https://bc-nav.ns-technic.com/historialCentro.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/historialCentro.php` -> GET `https://bc-nav.ns-technic.com/historialCentro.php`: filtroCentro (select), filtroCodTipoEstadoIncidencia (select), fechaInicio (text), fechaFin (text), listar (hidden), input (submit)
+- `https://bc-nav.ns-technic.com/historialCentro.php` -> POST `https://bc-nav.ns-technic.com/historialCentro.php`: norden (text), documento (file), fecha (text), facturable (checkbox), terminada (checkbox), guardar (submit), ComentarioDescartar (textarea), NumeroOrdenDescartar (hidden), botonDescartar (button), buscador-inventario-recogidos (text), comentarioRealizado (textarea), NumeroOrdenTerminar (hidden), guardar (button), comentarioVerificacion (textarea), codResolucion1 (select), codResolucion2 (select), NumeroOrdenVerificar (hidden), guardar (button)
+- `https://bc-nav.ns-technic.com/inventario.php` -> POST `https://bc-nav.ns-technic.com/inventario.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/inventario.php` -> GET `https://bc-nav.ns-technic.com/inventario.php`: filtroAlmacen (select), filtroReutilizado (select), listar (hidden), buscador-inventario (text)
+- `https://bc-nav.ns-technic.com/mantenimientos.php` -> POST `https://bc-nav.ns-technic.com/mantenimientos.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/mantenimientos.php` -> GET `https://bc-nav.ns-technic.com/mantenimientos.php`: filtroReferencia (text), fechaInicio (text), fechaFin (text), filtroTrabajo (select), filtroCodTipoEstadoIncidencia (select), listar (hidden), filtroCentro (select), filtroCliente (select), filtroDelegacion (select), filtroProvincia (select), filtroTecnico (select), input (submit)
+- `https://bc-nav.ns-technic.com/mantenimientos.php` -> POST `https://bc-nav.ns-technic.com/mantenimientos.php`: norden (text), documento (file), fecha (text), guardar (submit), comentarioVerificacion (textarea), codResolucion1 (select), codResolucion2 (select), NumeroOrdenVerificar (hidden), guardar (button), ComentarioDescartar (textarea), NumeroOrdenDescartar (hidden), botonDescartar (button), desAsignarNorden (hidden), botonDesAsignar (button), comentarioRealizado (textarea), NumeroOrdenTerminar (hidden), guardar (button), NumeroSiguienteAlbaran (text), NumeroOrdenRegistrar (hidden), botonRegistrarOrden (button)
+- `https://bc-nav.ns-technic.com/ocupacion.php` -> POST `https://bc-nav.ns-technic.com/ocupacion.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/ocupacion.php` -> GET `https://bc-nav.ns-technic.com/ocupacion.php`: filtroTecnico (select), fechaInicio (text), fechaFin (text), input (submit), listar (hidden)
+- `https://bc-nav.ns-technic.com/ordenesCliente.php` -> POST `https://bc-nav.ns-technic.com/ordenesCliente.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/ordenesCliente.php` -> GET `https://bc-nav.ns-technic.com/ordenesCliente.php`: filtroCentro (select), filtroTipoOrden (select), fechaInicio (text), fechaFin (text), listar (hidden), input (submit)
+- `https://bc-nav.ns-technic.com/ordenesCliente.php` -> POST `https://bc-nav.ns-technic.com/ordenesCliente.php`: norden (text), documento (file), fecha (text), facturable (checkbox), terminada (checkbox), guardar (submit), codResolucion1 (select), codResolucion2 (select), NumeroOrden (hidden), guardar (button)
+- `https://bc-nav.ns-technic.com/pendientes.php` -> POST `https://bc-nav.ns-technic.com/pendientes.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/pendientes.php` -> GET `https://bc-nav.ns-technic.com/pendientes.php`: filtroReferencia (text), fechaInicio (text), fechaFin (text), filtroTipoOrden (select), filtroCentro (select), filtroCliente (select), filtroDelegacion (select), listar (hidden), input (submit), norden0 (hidden), comentario0 (textarea), tecnico0 (select), nruta0 (number), fecha0 (text), norden1 (hidden), comentario1 (textarea), tecnico1 (select), nruta1 (number), fecha1 (text), norden2 (hidden), comentario2 (textarea), tecnico2 (select), nruta2 (number), fecha2 (text), norden3 (hidden), comentario3 (textarea), tecnico3 (select), nruta3 (number), fecha3 (text), norden4 (hidden), comentario4 (textarea), tecnico4 (select), nruta4 (number), fecha4 (text), norden5 (hidden), comentario5 (textarea), tecnico5 (select), nruta5 (number), fecha5 (text), norden6 (hidden), comentario6 (textarea), tecnico6 (select), nruta6 (number), fecha6 (text), norden7 (hidden), comentario7 (textarea), tecnico7 (select), nruta7 (number), fecha7 (text), norden8 (hidden), comentario8 (textarea), tecnico8 (select), nruta8 (number), fecha8 (text), norden9 (hidden), comentario9 (textarea), tecnico9 (select), nruta9 (number), fecha9 (text)
+- `https://bc-nav.ns-technic.com/planosCentros.php` -> POST `https://bc-nav.ns-technic.com/planosCentros.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/planosCentros.php` -> GET `https://bc-nav.ns-technic.com/planosCentros.php`: ncentro (select), listar (hidden), input (submit)
+- `https://bc-nav.ns-technic.com/prcAntihurtos.php` -> POST `https://bc-nav.ns-technic.com/prcAntihurtos.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/prcAntihurtos.php` -> POST `https://bc-nav.ns-technic.com/prcAntihurtos.php`: sin campos detectados
+- `https://bc-nav.ns-technic.com/presupuestos.php` -> POST `https://bc-nav.ns-technic.com/presupuestos.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/presupuestos.php` -> GET `https://bc-nav.ns-technic.com/presupuestos.php`: filtroNumero (text), fechaInicio (text), fechaFin (text), filtroCliente (text), filtroEstado (select), listar (hidden), input (submit)
+- `https://bc-nav.ns-technic.com/proyectos.php` -> POST `https://bc-nav.ns-technic.com/proyectos.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/proyectos.php` -> GET `https://bc-nav.ns-technic.com/proyectos.php`: filtroReferencia (text), fechaInicio (text), fechaFin (text), filtroCodTipoEstadoIncidencia (select), listar (hidden), filtroCentro (select), filtroCliente (select), filtroDelegacion (select), input (submit)
+- `https://bc-nav.ns-technic.com/proyectos.php` -> POST `https://bc-nav.ns-technic.com/proyectos.php`: norden (text), documento (file), guardar (submit)
+- `https://bc-nav.ns-technic.com/ruta.php` -> POST `https://bc-nav.ns-technic.com/ruta.php`: idiomaSeleccionado (submit), idiomaSeleccionado (submit)
+- `https://bc-nav.ns-technic.com/ruta.php` -> GET `https://bc-nav.ns-technic.com/ruta.php`: filtroTecnico (select), filtroFecha (text), input (submit)
+- `https://bc-nav.ns-technic.com/ruta.php` -> GET `https://bc-nav.ns-technic.com/ruta.php`: filtroDelegacion (select), filtroFechaDelegacion (text), input (submit)
+- `https://bc-nav.ns-technic.com/ruta.php` -> GET `https://bc-nav.ns-technic.com/ruta.php`: filtroGerente (select), filtroFechaGerente (text), input (submit)
+- `https://bc-nav.ns-technic.com/ruta.php` -> GET `https://bc-nav.ns-technic.com/ruta.php`: filtroCliente (select), filtroFechaCliente (text), input (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+- `https://bc-nav.ns-technic.com/index.php` -> POST `https://bc-nav.ns-technic.com/index.php`: usuario (text), password (password), entrar (submit)
+
+## Referencias PHP detectadas
+
+- `https://bc-nav.ns-technic.com/albaranProyecto.php?nproyecto=PV26-012883`
+- `https://bc-nav.ns-technic.com/albaranProyecto.php?nproyecto=PV26-012899`
+- `https://bc-nav.ns-technic.com/albaranProyecto.php?nproyecto=ZZZZZ`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-05828`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06576`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06577`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06578`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06581`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06582`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06584`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06585`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06589`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06593`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06594`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06602`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06603`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06614`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06626`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06641`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06642`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06665`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06667`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06672`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06673`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06674`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06677`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06678`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06827`
+- `https://bc-nav.ns-technic.com/albaranSAT.php?norden=OT26-06830`
+- `https://bc-nav.ns-technic.com/antihurtos.php`
+- `https://bc-nav.ns-technic.com/archivo.php`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-01945`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-02117`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-02158`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-02159`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-02197`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-02514`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-02515`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-02576`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-02577`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-04683`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-04684`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-04842`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-04843`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-04898`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-04899`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05011`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05013`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05092`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05095`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05099`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05177`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05178`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05179`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05180`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05196`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05197`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05488`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05489`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05490`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05491`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05492`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05493`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05494`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05495`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05496`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05497`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05498`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05499`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05500`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05501`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05503`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05504`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-05505`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06147`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06200`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06427`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06551`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06552`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06561`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06562`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06571`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06610`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06611`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06804`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06805`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06806`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06807`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06808`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06809`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06810`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06815`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06816`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06818`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06820`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06821`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06822`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06824`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06825`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06826`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06828`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06829`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06830`
+- `https://bc-nav.ns-technic.com/asignarincidencia.php?norden=OT26-06831`
+- `https://bc-nav.ns-technic.com/assets/leerDocumento.php?d=ruta`
+- `https://bc-nav.ns-technic.com/assets/leerDocumentoSp.php?d=parte`
+- `https://bc-nav.ns-technic.com/assets/leerDocumentoSp.php?d=ruta`
+- `https://bc-nav.ns-technic.com/cabecera.php`
+- `https://bc-nav.ns-technic.com/cambiarClave.php`
+- `https://bc-nav.ns-technic.com/checklist.php`
+- `https://bc-nav.ns-technic.com/controlUsuarios.php`
+- `https://bc-nav.ns-technic.com/costes.php`
+- `https://bc-nav.ns-technic.com/cuentasGastos.php`
+- `https://bc-nav.ns-technic.com/documentacion.php`
+- `https://bc-nav.ns-technic.com/gastos.php`
+- `https://bc-nav.ns-technic.com/historialCentro.php`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2018&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2057&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2104&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2134&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2238&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2404&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2549&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2553&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2554&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2589&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=260097&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2655&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2730&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2762&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=2813&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000011&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000361&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000362&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000365&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000366&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000367&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000368&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000370&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000423&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3000430&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3027&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3074&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3089&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3098&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3110&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3202&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3288&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3471&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3501&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3550&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3589&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3615&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3629&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3675&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3701&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3765&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3773&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3779&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3917&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=3971&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4074&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4079&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4121&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4128&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4179&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4180&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4181&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4210&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4279&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4302&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4325&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4404&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4420&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4423&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4452&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4527&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4534&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4675&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4687&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4697&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4709&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4741&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4821&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4829&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=4830&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=6000118&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=6000148&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E001&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E223&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E226&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E234&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E236&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E242&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E247&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E263&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E267&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E283&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E290&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E293&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E300&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E314&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E316&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E336&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=E506.&listar=S`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=SPR`
+- `https://bc-nav.ns-technic.com/historialCentro.php?filtroCentro=SPR972&listar=S`
+- `https://bc-nav.ns-technic.com/incLibreria.php`
+- `https://bc-nav.ns-technic.com/incWebServicesAPI.php`
+- `https://bc-nav.ns-technic.com/incidencias.php`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06812&listar=S`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06813&listar=S`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06815&listar=S`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06816&listar=S`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06820&listar=S`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06821&listar=S`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06824&listar=S`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06825&listar=S`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06826&listar=S`
+- `https://bc-nav.ns-technic.com/incidencias.php?filtroReferencia=OT26-06829&listar=S`
+- `https://bc-nav.ns-technic.com/includes/incAjax.php`
+- `https://bc-nav.ns-technic.com/includes/incAjax.php?id=66`
+- `https://bc-nav.ns-technic.com/includes/incAjax.php?id=67`
+- `https://bc-nav.ns-technic.com/includes/incAjax.php?id=69`
+- `https://bc-nav.ns-technic.com/includes/incLibreriaComercial.php`
+- `https://bc-nav.ns-technic.com/index.php`
+- `https://bc-nav.ns-technic.com/inventario.php`
+- `https://bc-nav.ns-technic.com/inventarioCentro.php`
+- `https://bc-nav.ns-technic.com/inventarioCentro.php?filtroCentro=`
+- `https://bc-nav.ns-technic.com/inventarioDelegacion.php`
+- `https://bc-nav.ns-technic.com/js/incidencias.php`
+- `https://bc-nav.ns-technic.com/js/incidencias.php?listar=S&filtroTecnico=`
+- `https://bc-nav.ns-technic.com/js/mantenimientos.php?listar=S&filtroTecnico=`
+- `https://bc-nav.ns-technic.com/js/obras.php`
+- `https://bc-nav.ns-technic.com/js/obras.php?listar=S&filtroTecnico=`
+- `https://bc-nav.ns-technic.com/js/partedetrabajo.php`
+- `https://bc-nav.ns-technic.com/js/prcPedidoTransferencia.php`
+- `https://bc-nav.ns-technic.com/mantenimientos.php`
+- `https://bc-nav.ns-technic.com/movimientos.php`
+- `https://bc-nav.ns-technic.com/notificaciones.php`
+- `https://bc-nav.ns-technic.com/obras.php`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012915&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012901&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012902&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012903&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012904&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012905&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012906&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012907&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012908&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012909&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012910&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012911&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012912&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012913&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012914&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012915&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012916&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-012917&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-1111&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-2222&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-3333&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-5555&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-6666&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-7777&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=PV26-8888&listar=S`
+- `https://bc-nav.ns-technic.com/obras.php?filtroProyecto=ZZZZZ&listar=S`
+- `https://bc-nav.ns-technic.com/ocupacion.php`
+- `https://bc-nav.ns-technic.com/ordenesCliente.php`
+- `https://bc-nav.ns-technic.com/partetrabajo.php`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-01945`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-02117`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-02158`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-02159`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-02197`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-02514`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-02515`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-02577`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-04683`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-04684`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-04842`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-04899`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05011`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05013`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05092`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05095`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05099`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05178`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05180`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05196`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05488`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05489`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05490`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05491`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-05492`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06147`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06200`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06552`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06562`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06571`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06804`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06807`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06808`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06809`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06818`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06822`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06828`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06830`
+- `https://bc-nav.ns-technic.com/partetrabajo.php?norden=OT26-06831`
+- `https://bc-nav.ns-technic.com/pedidosTransferencia.php`
+- `https://bc-nav.ns-technic.com/pendientes.php`
+- `https://bc-nav.ns-technic.com/planosCentros.php`
+- `https://bc-nav.ns-technic.com/prcAntihurtos.php`
+- `https://bc-nav.ns-technic.com/prcIncidencia.php`
+- `https://bc-nav.ns-technic.com/prcObra.php`
+- `https://bc-nav.ns-technic.com/prcPresupuesto.php`
+- `https://bc-nav.ns-technic.com/prcPresupuesto.php?copia=OFP-000004`
+- `https://bc-nav.ns-technic.com/prcPresupuesto.php?copia=OFP-000005`
+- `https://bc-nav.ns-technic.com/prcPresupuesto.php?copia=OFP-000006`
+- `https://bc-nav.ns-technic.com/prcPresupuesto.php?copia=OFP-000007`
+- `https://bc-nav.ns-technic.com/prcPresupuesto.php?copia=OFP-000008`
+- `https://bc-nav.ns-technic.com/prcPresupuesto.php?copia=OFP-000009`
+- `https://bc-nav.ns-technic.com/prcPresupuesto.php?copia=OFP-000010`
+- `https://bc-nav.ns-technic.com/presupuestos.php`
+- `https://bc-nav.ns-technic.com/principal.php`
+- `https://bc-nav.ns-technic.com/proyectos.php`
+- `https://bc-nav.ns-technic.com/ruta.php`
+- `https://bc-nav.ns-technic.com/salir.php`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-00002&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-00003&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-00004&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-00005&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-00006&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-00007&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012883&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012899&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012915&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012901&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012902&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012903&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012904&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012905&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012906&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012907&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012908&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012909&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012910&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012911&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012912&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012913&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012914&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012915&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012916&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-012917&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-1111&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-2222&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-3333&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-5555&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-6666&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-7777&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=PV26-8888&listar=S`
+- `https://bc-nav.ns-technic.com/verParteProyecto.php?nproyecto=ZZZZZ&listar=S`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-02159`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-02198`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-02318`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-02515`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-02577`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-04684`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-04899`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05095`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05178`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05180`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05488`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05489`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05490`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05491`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05492`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05694`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05695`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05791`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05828`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05845`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05846`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05847`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-05848`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06576`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06577`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06578`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06581`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06582`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06584`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06585`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06589`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06593`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06594`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06602`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06603`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06614`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06626`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06641`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06642`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06665`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06667`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06672`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06673`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06674`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06677`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06678`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06804`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06808`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06811`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06814`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06818`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06819`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06827`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06830`
+- `https://bc-nav.ns-technic.com/verPartetrabajo.php?norden=OT26-06831`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-01943`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-01945`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-02117`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-02158`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-02197`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-02514`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-02517`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-04683`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-04842`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-04874`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-05011`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-05013`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-05092`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-05099`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-05196`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-06147`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-06200`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-06552`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-06562`
+- `https://bc-nav.ns-technic.com/verPartetrabajoObras.php?norden=OT26-06571`
+- `https://bc-nav.ns-technic.com/verPresupuesto.php?npresupuesto=OFP-000004`
+- `https://bc-nav.ns-technic.com/verPresupuesto.php?npresupuesto=OFP-000005`
+- `https://bc-nav.ns-technic.com/verPresupuesto.php?npresupuesto=OFP-000006`
+- `https://bc-nav.ns-technic.com/verPresupuesto.php?npresupuesto=OFP-000007`
+- `https://bc-nav.ns-technic.com/verPresupuesto.php?npresupuesto=OFP-000008`
+- `https://bc-nav.ns-technic.com/verPresupuesto.php?npresupuesto=OFP-000009`
+- `https://bc-nav.ns-technic.com/verPresupuesto.php?npresupuesto=OFP-000010`
+
+## Errores o bloqueos
+
+- No se han registrado errores durante la auditoria.
+
+## Notas
+
+- Este inventario debe revisarse manualmente antes de cerrar presupuesto.
+- Las rutas de proceso o acciones destructivas se han omitido de forma preventiva.
+- Las credenciales usadas no se guardan en este informe.

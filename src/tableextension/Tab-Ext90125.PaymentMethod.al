@@ -6,7 +6,7 @@ tableextension 90125 PaymentMethod extends "Payment Method"
     fields
     {
 
-        field(90000; "Num de cuenta banco en factura"; Text[30]) { }
-        field(90001; "SWIFT"; Text[12]) { }
+        field(91500; "Num. cuenta banco en factura"; Text[30]) { }
+        field(91501; "SWIFT."; Text[12]) { }
     }
 }
